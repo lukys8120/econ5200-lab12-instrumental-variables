@@ -1,0 +1,34 @@
+# ECON 5200 — Lab 12 (instrumental variables)
+#
+# NOTE: lab-ch12-diagnostic.ipynb, src/iv_tools.py and README.md are GRADED and must be
+# committed. Do not add them here.
+
+# Secrets — API keys, tokens, credentials
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets.json
+
+# Virtual environment
+.venv/
+venv/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Jupyter scratch
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Tooling caches
+.pytest_cache/
+.mypy_cache/
+
+# macOS
+.DS_Store
+
+# Tooling
+.claude/
